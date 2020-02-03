@@ -1,0 +1,10 @@
+.banner-bottom {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    background-color:#191919;
+    background: url('./../img/ipad.png') no-repeat bottom center scroll;
+    /* background: linear-gradient(to bottom, #171717 0%, gray 50%); */
+    background-size: 60%;
+}

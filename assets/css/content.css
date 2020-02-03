@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    /* padding: 10%; */
+    margin: 8% 20%
+}
+
+.content-images { 
+    width: 65%;
+    max-width: 65%;
+}
+
+.content-second {
+    margin-top:5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-second > div {
+    background-color: #161616;
+    max-width: 100%;
+}
+
+.content-second > div > img { 
+   max-width: 50%;
+}
+
+.content-second > #content-div-second {
+    display: flex;
+    flex-direction: row-reverse;
+}
